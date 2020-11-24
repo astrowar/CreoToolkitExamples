@@ -1,0 +1,50 @@
+A Loop executes the sequence of statements many times until the stated condition becomes false. A loop consists of two parts, a body of a loop and a control statement. The control statement is a combination of some conditions that direct the body of the loop to execute until the specified condition becomes false. The purpose of the loop is to repeat the same code a number of times.
+A do...while loop in C is similar to the while loop except that the condition is always executed after the body of a loop. It is also called an exit-controlled loop.
+
+Syntax of do...while loop in C programming language is as follows
+As we saw in a while loop, the body is executed if and only if the condition is true. In some cases, we have to execute a body of the loop at least once even if the condition is false. This type of operation can be achieved by using a do-while loop.
+
+In the do-while loop, the body of a loop is always executed at least once. After the body is executed, then it checks the condition. If the condition is true, then it will again execute the body of a loop otherwise control is transferred out of the loop.
+
+Similar to the while loop, once the control goes out of the loop the statements which are immediately after the loop is executed.
+
+The critical difference between the while and do-while loop is that in while loop the while is written at the beginning. In do-while loop, the while condition is written at the end and terminates with a semi-colon (;)
+
+The following loop program in C illustrates the working of a do-while loop:
+As we saw in a while loop, the body is executed if and only if the condition is true. In some cases, we have to execute a body of the loop at least once even if the condition is false. This type of operation can be achieved by using a do-while loop.
+
+In the do-while loop, the body of a loop is always executed at least once. After the body is executed, then it checks the condition. If the condition is true, then it will again execute the body of a loop otherwise control is transferred out of the loop.
+
+Similar to the while loop, once the control goes out of the loop the statements which are immediately after the loop is executed.
+
+The critical difference between the while and do-while loop is that in while loop the while is written at the beginning. In do-while loop, the while condition is written at the end and terminates with a semi-colon (;)
+
+The following loop program in C illustrates the working of a do-while loop:
+We have declared a variable of an int data type to store values.
+In for loop, in the initialization part, we have assigned value 1 to the variable number. In the condition part, we have specified our condition and then the increment part.
+In the body of a loop, we have a print function to print the numbers on a new line in the console. We have the value one stored in number, after the first iteration the value will be incremented, and it will become 2. Now the variable number has the value 2. The condition will be rechecked and since the condition is true loop will be executed, and it will print two on the screen. This loop will keep on executing until the value of the variable becomes 10. After that, the loop will be terminated, and a series of 1-10 will be printed on the screen.
+In C, the for loop can have multiple expressions separated by commas in each part.
+The nesting of for loops can be done up-to any level. The nested loops should be adequately indented to make code readable. In some versions of 'C,' the nesting is limited up to 15 loops, but some provide more.
+
+The nested loops are mostly used in array applications which we will see in further tutorials.
+
+Break Statement in C
+The break statement is used mainly in in the switch statement. It is also useful for immediately stopping a loop.
+
+We consider the following program which introduces a break to exit a while loop:
+
+So, the value 5 is skipped.
+
+Which loop to Select?
+Selection of a loop is always a tough task for a programmer, to select a loop do the following steps:
+
+Analyze the problem and check whether it requires a pre-test or a post-test loop.
+If pre-test is required, use a while or for a loop.
+If post-test is required, use a do-while loop.
+Summary
+
+Looping is one of the key concepts on any programming language.
+A block of looping statements in C are executed for number of times until the condition becomes false.
+Loops are of 2 types: entry-controlled and exit-controlled.
+'C' programming provides us 1) while 2) do-while and 3) for loop.
+For and while loop is entry-controlled 
